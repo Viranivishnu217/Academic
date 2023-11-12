@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin-inline: auto;
+    
+    
+}
+body{
+    font-family:"poppins",sans-serif;
+    font-weight:5;
+}
+h1{
+    font-size:2rem;
+}
+h2{
+    font-size:1.5rem;
+}
+h4{
+    font-size:1rem
+}
+a{
+    display:inline-block;
+    text-decoration:none;
+}
+p{
+    display:inline-block;
+}
+
+.flex{
+    display:flex;
+    align-items:center;
+}
+.hover-links{
+    color:#011d1d;
+    transition: 0.2s ease-out;
+    font-size:16px;
+}
+.hover-links:hover{
+    color:rgb(54, 74, 249);
+    transition:0.2s ease-out;
+}
+ul{
+    list-style:none;
+    gap:20px;
+}
+/* Site settings */
+
+.first-header{
+    background-color:#0958f5;
+    color:white !important;
+    padding:15px;
+}
+.first-header-left{
+    flex-wrap:wrap;
+}
+
+.get{
+    font-weight:6;
+    color:#cfcdcb;
+    display:inline;
+}
+
+/* Text align center is reqd to be fixed after resolve all the problems */
+.first-header-right{
+    flex-wrap:wrap;
+    gap:10px;
+}
+.first-header-right a{
+    color:white;
+    font-size:18px;
+}
+.top-banner{
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px 100px;
+    
+}
+.navbar{
+    background-color:#eeeeed;
+}
+.main-nav{
+    justify-content:space-between;
+padding-block:20px;
+  
+}
+
+.company-logo img{
+    width:150px;
+}
+
+.nav-links ul{
+    flex-wrap:wrap;
+}
+.about-container{
+    background-color:azure;
+    padding-block:20px;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+.about{
+    justify-content:space-between;
+}
+.details-container h3{
+    padding-block:40px;
+    text-align:center;
+    font-family:"roboto",sans-serif;
+    font-size:20px;
+    font-weight:5;
+    
+}
+
+.details-container p{
+    font-family:"roboto",sans-serif;
+    line-height:30px;
+    text-align:justify;
+    letter-spacing:normal;
+    font-size:17px;
+}
+
+.middle{
+color:blue;
+}
+.middle:hover{
+    text-decoration:underline;
+}
+
+/* Features Section Start from here */
+.grid{
+    display:grid;
+}
+
+.features-section-head{
+    flex-wrap:wrap;
+}
+.features-section-area{
+    width:20px;
+    height:20px;
+}
+.img-1{
+    width:600px;
+    height:400px;
+  
+    background-size:cover;
+}
